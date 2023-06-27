@@ -1,0 +1,8 @@
+shiny
+plotly
+numpy
+pandas
+shinywidgets
+dash-bio
+gseapy
+matplotlib
