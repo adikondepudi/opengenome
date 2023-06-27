@@ -147,7 +147,6 @@ def scge_server(input, output, session):
             df_filter,
             aspect='auto',
             color_continuous_scale='YlGnBu',
-            aspect="auto",
             # height=600, width=1200
         )
         return heatmap_plot

@@ -1,3 +1,11 @@
+# rsconnect folder
+rsconnect-python/
+
+# various files
+testing.ipynb
+gsea_plot.png
+DepMap Public 23Q2.md
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
