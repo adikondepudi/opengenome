@@ -2,7 +2,7 @@
 A comprehensive, open-source genomics toolkit to perform and analyze relationships within genomics
 
 ## Installation
-1. Clone the repository: git clone https://github.com/adikondepudi/opengene.git
+1. Clone the repository: git clone https://github.com/adikondepudi/opengenome.git
 2. cd into the 'opengene' folder
 3. Install the required packages: pip install -r requirements.txt
 
