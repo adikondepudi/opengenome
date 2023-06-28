@@ -17,7 +17,9 @@ If you would like to contribute to this project, please follow the guidelines be
 2. Create a new branch: git checkout -b feature-name
 3. Make your changes and commit them: git commit -am 'Add some feature'
 4. Push to the branch: git push origin feature-name
-5. Create a pull request.
+5. Create a pull request on the original repository, describing your changes and their purpose.
 
 ## License
-This project is licensed under the MIT License. See the license file for details.
+OpenGenome is released under the MIT License. For more information, please refer to the license file provided with the project.
+
+We encourage you to use, modify, and distribute OpenGenome while adhering to the terms of the MIT License.
