@@ -150,8 +150,9 @@ def gsea_server(input, output, session):
             global df
             p.set(message="Calculation in progress", detail="This may take a while...")
 
-            # df_changed = df[[input.name(), input.logfc(), input.pval()]]
-            df_changed = df.rename(columns={input.name(): "Gene", input.logfc(): "logFC", input.pval(): "adjPval"}, inplace=True)
+            df_changed = df[[input.name(), input.logfc(), input.pval()]]
+            df_changed = df_changed.rename(columns={input.name(): "Gene", input.logfc(): "logFC", input.pval(): "adjPval"})
+            print(df_changed.columns)
             df_changed["Rank"] = -np.log10(df_changed["adjPval"])*df_changed["logFC"]
             df_changed.sort_values(by="Rank", ascending=False).reset_index(drop=True)
             ranking = df_changed[['Gene', 'Rank']]

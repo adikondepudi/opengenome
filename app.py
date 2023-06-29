@@ -31,7 +31,7 @@ app_ui = ui.page_navbar(
     ),
     title = "openGene",
     window_title="openGene",
-    selected="SCGE",
+    selected="GSEA",
     footer=ui.div(
         h4("openGene: Developed by Aditya Kondepudi of the Mitra Lab"),
     )
