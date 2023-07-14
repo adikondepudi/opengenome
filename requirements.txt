@@ -1,7 +1,7 @@
 shiny
 plotly
 numpy
-pandas
+pandas¡
 shinywidgets
 dash-bio
 gseapy

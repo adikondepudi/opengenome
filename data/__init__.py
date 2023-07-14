@@ -37,7 +37,7 @@ df_org_rna_sca_wide = df_rna_sca_wide
 # Return the log of the RNA single cell type data
 df = np.log1p(df_org_rna_sca_wide)
 
-nameconversion = pd.read_csv("data/nameconversion.csv")
+# nameconversion = pd.read_csv("data/nameconversion.csv")
 
 mt_list = df_location.loc[df_location['Main location'].str.contains("Mitochondria")]['Gene'].to_list()
 er_list = df_location.loc[df_location['Main location'].str.contains("Endoplasmic reticulum")]['Gene'].to_list()
