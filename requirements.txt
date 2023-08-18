@@ -1,8 +1,8 @@
-shiny
-plotly
+shiny #pip
+plotly #pip
 numpy
 pandas
-shinywidgets
-dash-bio
-# gseapy
+shinywidgets #pip
+dash-bio #pip
+gseapy
 matplotlib
