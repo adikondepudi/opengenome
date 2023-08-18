@@ -7,7 +7,7 @@ A comprehensive, open-source genomics toolkit to perform and analyze relationshi
 3. Install the required packages: pip install -r requirements.txt
 
 ## Usage
-1. Run the script: python app.py
+1. Run the script: shiny python app.py
 2. Open the web interface in your browser: http://localhost:8000
 
 ## Contributing
